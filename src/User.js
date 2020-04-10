@@ -16,6 +16,7 @@ export default class User extends Component {
         }
         return (
             <div className="mainBg">
+                <img src={process.env.PUBLIC_URL + '/nividata_white-1.png'} style={{width:'165px', marginTop:'20px', marginLeft: '40px'}}/>
                 <div className="formContainer">
                     <form>
                         <h3 style={center}>Sign In</h3>
