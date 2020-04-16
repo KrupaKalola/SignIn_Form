@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 import User from './User'
-import Dashboard from './Dashboard'
-
+import Nav from './Nav'
 export default class App extends Component {
     state={
-        loggedIn:false
+        loggedIn:true
     }
     clickLogin=()=>{
         this.setState({loggedIn:true})
@@ -18,7 +17,7 @@ export default class App extends Component {
     render() {
         const loggedIn = this.state.loggedIn
         if(loggedIn){
-            return <Dashboard submitForm={this.clickLogout}/>
+            return <Nav submitForm={this.clickLogout}/>
         }
         else{
             return <User submitForm={this.clickLogin}/>

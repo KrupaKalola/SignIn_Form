@@ -7,7 +7,7 @@
 .top-header-section {
     padding-bottom: 25px;
     padding-top: 25px;
-}
+} 
 .logo a{
     color: #007bff;
     text-decoration: none;
@@ -59,6 +59,10 @@
     border-radius: 4px;
     text-align: center;
     margin: 0px;
+}
+.sidebar-info a{
+    color: #212529;
+    text-decoration: none;
 }
 .sidebar-info col p{
     margin-bottom: 0 !important;
