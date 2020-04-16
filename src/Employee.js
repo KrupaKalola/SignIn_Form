@@ -5,7 +5,6 @@ import {
     Row,
     Col
 } from 'reactstrap';
-import axios from 'axios';
 import data from './employee_database.json'
 
 import './Employee.css'
@@ -20,7 +19,6 @@ const Employee = (props) => {
         firstname=firstname.slice(0,1)
         lastname=lastname.slice(0,1)
         let initial = firstname+lastname 
-        console.log(firstname , lastname , initial)
         
         return (
             <Col lg='3' key={data.id}>
