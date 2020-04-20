@@ -3,7 +3,7 @@ import User from './User'
 import Nav from './Nav'
 export default class App extends Component {
     state={
-        loggedIn:true
+        loggedIn:false
     }
     clickLogin=()=>{
         this.setState({loggedIn:true})

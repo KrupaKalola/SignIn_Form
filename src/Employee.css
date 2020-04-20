@@ -17,6 +17,8 @@
 }
 .employee-detail img{
     width : 70px;
+    height: 70px;
+    line-height: 70px;
 }
 .employee-detail:hover{
     box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08) !important;
@@ -29,7 +31,7 @@
     color:  #212529;
     width: 70px;
     height: 70px;
-    margin: 0 auto 16px;
+    margin: 0 auto;
     line-height: 70px;
     font-size: 20px;
 }
